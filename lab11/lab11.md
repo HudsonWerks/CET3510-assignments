@@ -22,7 +22,8 @@ Lab assignment - using Github on the command line, download a repo, modify a fil
 		2) Using Github and the "git clone" command, download the "CET3510_Lecture_assignments" repository
 		3) Using the nano text editor open the file "ground_control_win.asm"
 		
-		Using the nano text editor open a new file named "ground_control_win.asm" and keystroke the code from the lecture11_exercise_win.png file
+		Using the nano text editor open a new file named "ground_control_win.asm" and keystroke the code from the
+		lecture11_exercise_win.png file
 		
 		4) Edit the message and include your name
 		5) Save and close the file
@@ -35,4 +36,5 @@ Lab assignment - using Github on the command line, download a repo, modify a fil
 		9) In your assignment report, upload the following to Blackboard:
 			a. The URL of your Github repo
 			b. Screenshots of your terminal/console output
-			c. A list of all terminal commands you used with a brief explanation of each of the commands and any options used within the command
+			c. A list of all terminal commands you used with a brief explanation of each of the commands and any 
+			options used within the command
