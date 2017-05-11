@@ -3,16 +3,17 @@ Lab assignment - using Github on the command line, download a repo, modify a fil
 	a. MacOS version (using OSX terminal). All steps below assume use of the command line:
 		1) Create a custom directory for your assignment
 		2) Using Github and the "git clone" command, download the "CET3510_Lecture_assignments" repository
-		3) Using the nano text editor open a new file named "ground_control_mac.asm" and keystroke the code from the lecture11_exercise_mac.png file
-		4) Edit the message and include your name
-		5) Save and close the file
-		6) Run the assembler:
+		3) Using the nano text editor open a new file named "ground_control_mac.asm" 
+		4) Keystroke the code from the lecture11_exercise_mac.png file
+		5) Edit the message and include your name
+		6) Save and close the file
+		7) Run the assembler:
 			$ nasm -f macho64 ground_control.asm -o ground_control.o
-		7) Run the linker to create an executable:
+		8) Run the linker to create an executable:
 			$ ld ground_control.o -o ground_control
-		8) Run the executable. Console output should now show your modified message
+		9) Run the executable. Console output should now show your modified message
 			$ ./ground_control
-		9) In your assignment report, upload the following to Blackboard:
+		10) In your assignment report, upload the following to Blackboard:
 			a. The URL of your Github repo
 			b. Screenshots of your terminal/console output
 			c. A list of all terminal commands you used with a brief explanation of each of the commands and any options used within the command
@@ -20,20 +21,17 @@ Lab assignment - using Github on the command line, download a repo, modify a fil
 	b. Windows version (using Cygwin, Putty, or Virtual Machine). All steps below assume use of the command line:
 		1) Create a custom directory for your assignment
 		2) Using Github and the "git clone" command, download the "CET3510_Lecture_assignments" repository
-		3) Using the nano text editor open the file "ground_control_win.asm"
-		
-		Using the nano text editor open a new file named "ground_control_win.asm" and keystroke the code from the
-		lecture11_exercise_win.png file
-		
-		4) Edit the message and include your name
-		5) Save and close the file
-		6) Run the assembler:
+		3) Using the nano text editor open a new file named "ground_control_win.asm"
+		4) Keystroke the code from the lecture11_exercise_win.png file
+		5) Edit the message and include your name
+		6) Save and close the file
+		7) Run the assembler:
 			$ nasm -fwin32 ground_control.asm
-		7) Run the gcc linker to create an executable:
+		8) Run the gcc linker to create an executable:
 			$ gcc ground_control.obj -o ground_control
-		8) Run the executable. Console output should now show your modified message
+		9) Run the executable. Console output should now show your modified message
 			$ ./ground_control
-		9) In your assignment report, upload the following to Blackboard:
+		10) In your assignment report, upload the following to Blackboard:
 			a. The URL of your Github repo
 			b. Screenshots of your terminal/console output
 			c. A list of all terminal commands you used with a brief explanation of each of the commands and any 
