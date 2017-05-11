@@ -3,7 +3,7 @@ Lab assignment - using Github on the command line, download a repo, modify a fil
 	a. MacOS version (using OSX terminal). All steps below assume use of the command line:
 		1) Create a custom directory for your assignment
 		2) Using Github and the "git clone" command, download the "CET3510_Lecture_assignments" repository
-		3) Using the nano text editor open the file "ground_control_mac.asm"
+		3) Using the nano text editor open a new file named "ground_control_mac.asm" and keystroke the code from the lecture11_exercise_mac.png file
 		4) Edit the message and include your name
 		5) Save and close the file
 		6) Run the assembler:
@@ -21,6 +21,9 @@ Lab assignment - using Github on the command line, download a repo, modify a fil
 		1) Create a custom directory for your assignment
 		2) Using Github and the "git clone" command, download the "CET3510_Lecture_assignments" repository
 		3) Using the nano text editor open the file "ground_control_win.asm"
+		
+		Using the nano text editor open a new file named "ground_control_win.asm" and keystroke the code from the lecture11_exercise_win.png file
+		
 		4) Edit the message and include your name
 		5) Save and close the file
 		6) Run the assembler:
